@@ -39,11 +39,11 @@ Change directory and install node dependencies
 
 `$ cd xrpl-tutorial`
 
-Run script twice to create 2 new accounts via (i.e. via SDK). Once complete, make a note of the 3 account mnemonics and save somewhere safe.
+Run script twice to create 2 new accounts via (i.e. via SDK). Once complete, make a note of the 2 account mnemonics and save somewhere safe.
 
 `$ python xrpl_1_create_wallet.py`
 
-Fund the 1st account using XRPL transaction sender
+Fund the 1st account using XRPL transaction sender (this is optional since we use the `generate_faucet_wallet` function to create the wallet which prefunds the wallet with some XRP).
 
 `https://xrpl.org/tx-sender.html`
 
