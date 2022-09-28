@@ -29,7 +29,7 @@ Familiarity with the XRP ledger and tools
 
 - A Python 3 environment with xrpl-py installed (`pip3 install xrpl-py`)
 
-# Steps (if cloning repo)
+# Installation
 
 Clone repo
 
@@ -51,7 +51,7 @@ Run script to send funds from the 1st account to the 2nd account. Before running
 
 `$ python xrpl_2_make_xrp_payment.py`
 
-## References
+# References
 
 - xrpl testnet faucet https://xrpl.org/xrp-testnet-faucet.html
 - xrpl transaction sender https://xrpl.org/tx-sender.html
